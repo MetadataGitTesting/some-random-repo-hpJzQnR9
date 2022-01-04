@@ -2,6 +2,21 @@ name: oralia.wyman
 description: User fork
 version: 1
 author: carolann.murray@yahoo.com
-workflows: {}
+workflows:
+  workflows/W1:
+    name: W1
+    description: Really solid info
+    author: carolann.murray@yahoo.com
+    mode: batch
+    language: scala
+    createdAt: '2022-01-04 16:02:42'
+    datasets:
+      inputs: []
+      outputs: []
 datasets: {}
-schedules: {}
+schedules:
+  schedules/Britt_Dooley:
+    name: Britt_Dooley
+    description: Really solid info
+    createdAt: '2022-01-04 16:02:42'
+    author: carolann.murray@yahoo.com
